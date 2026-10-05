@@ -1,0 +1,9 @@
+go 1.27.1
+
+use (
+	./adaptors/api-gateway
+	./adaptors/monitor-server
+	./core
+	./services/auth-service
+	./services/civics-service
+)
