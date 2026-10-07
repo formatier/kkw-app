@@ -40,11 +40,11 @@ jobs:
 
             core
 
-            adaptor/api-gateway
-            adaptor/monitor-server
+            api-gateway
+            monitor-server
 
-            service/auth-service
-            service/forum-service
+            auth-service
+            forum-service
 
           requireScope: false
           disallowScopes: |
