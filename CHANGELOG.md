@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/formatier/kkw-app/compare/v1.0.0...v1.1.0) (2026-10-07)
+
+
+### Features
+
+* **auth-service:** create auth-service domain entities for implementation ([#6](https://github.com/formatier/kkw-app/issues/6)) ([884b679](https://github.com/formatier/kkw-app/commit/884b6797acd4e82dfffcff75b05cefd1b614673c))
+
 ## 1.0.0 (2026-10-05)
 
 
