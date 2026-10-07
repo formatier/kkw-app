@@ -14,12 +14,18 @@ type CommonModel struct {
 
 type StudentModel struct {
 	Level        valueobject.StudentLevel
+	Class        valueobject.StudentClass
 	PhoneNumber  string
 	Email        string
 	PasswordHash string
 }
 
 type TeacherModel struct {
+	Level      *valueobject.StudentLevel
+	Class      *valueobject.StudentClass
+	JobTitle   string
+	CitizenId  string
+	Department string
 }
 
 type StudentTeacherUnion struct {
