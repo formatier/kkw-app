@@ -48,3 +48,13 @@ func NewStudentLevel(val uint8) (StudentLevel, bool) {
 		return StudentLevel(0), true
 	}
 }
+
+type StudentClass uint8
+
+func NewStudentClass(val uint8) (StudentClass, bool) {
+	if 0 < val && val <= 13 {
+		return StudentClass(val), true
+	} else {
+		return StudentClass(0), false
+	}
+}
