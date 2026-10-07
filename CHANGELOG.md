@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.0](https://github.com/formatier/kkw-app/compare/v1.1.0...v1.2.0) (2026-10-07)
+
+
+### Features
+
+* **auth-service:** add required fields in TeacherModel. ([#10](https://github.com/formatier/kkw-app/issues/10)) ([6878093](https://github.com/formatier/kkw-app/commit/68780934032e7ed73dd089b392573298c15273c9))
+
+
+### Bug Fixes
+
+* **auth-service:** fix CommonModel by adding a Username field. ([#11](https://github.com/formatier/kkw-app/issues/11)) ([4bad46f](https://github.com/formatier/kkw-app/commit/4bad46fe861f93fb493bdbf97955ab8e9bb1ccde))
+
 ## [1.1.0](https://github.com/formatier/kkw-app/compare/v1.0.0...v1.1.0) (2026-10-07)
 
 
