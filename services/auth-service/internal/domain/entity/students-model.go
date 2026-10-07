@@ -8,6 +8,7 @@ import (
 
 type CommonModel struct {
 	Role           valueobject.Role // Kind
+	Username       string
 	Name, Lastname string
 	SchoolId       string
 }
